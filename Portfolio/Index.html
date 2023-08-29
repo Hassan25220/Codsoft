@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Portfoloio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/56a616d584.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="headtxt">
+        <p class="firstline">
+            <b> Personal Portfolio Website </b>
+        </p>
+
+    </div>
+    <div id="header">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul class="sidemenu" id="sidemenu">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+    </div>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <p style="font-style: italic;">Web Developer & Mobile App Developer</p>
+                <h1>Hi, I am <span> Hassan Saeed </span></h1>
+                <div class="q">
+                    <q>
+                        I'm a skill in web and mobile app development,
+                        passionate about strong foundation in front-end and back-end technologies,
+                        I specialize in creating user-friendly websites and responsive mobile
+                        applications that marry functionality with aesthetics.
+                    </q>
+                </div>
+                <div class="btn-box">
+                    <a href="./resume/Hassan_Software_Resume.pdf" target="_blank">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+                <div class="home-icon">
+                    <a href="https://www.linkedin.com/in/hassan-saeed25" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Hassan25220" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Images/background.png" width="93%">
+            </div>
+        </section>
+    </main>
+    <!----------------- About Section --------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Portfolio/Images/about-me-img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>
+                        Hello! I'm a <span> Hassan </span> professional with a passion for digital landscapes. My skill
+                        set
+                        encompasses the art of SEO to enhance online visibility, crafting compelling content that
+                        engages and informs, along with crafting seamless web experiences. Moreover, I delve into the
+                        realm of app development, proficiently creating for both Android and iOS platforms.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(this)" data-tab="skills">Skills</p>
+                        <p class="tab-links" onclick="opentab(this)" data-tab="experience">Experience</p>
+                        <p class="tab-links" onclick="opentab(this)" data-tab="education">Education</p>
+
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Search Engine Optimization & Content Writter</span><br>Profficient in SEO
+                                (including:
+                                On-page, Off-page, Technicle, etc) & All Types of Content Writing</li>
+                            <li><span>Web-Development / Wordpress Developer</span><br>Web App Development</li>
+                            <li><span>App Developer</span><br>Building Android / IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>-Software Engineering - From - University of Central
+                                Punjab</li>
+                            <li><span>2018 - 2020</span><br>FSC (Pre Engineering)</li>
+                            <li><span>2016 - 2018</span><br>Matric (Science)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>August 2020 - November 2020</span><br>Internship & Work Experience -From- Blue
+                                Digital Pixel</li>
+                            <li><span>July 2022 - Nov 2022</span><br>Web Development -From- University of Central Punjab
+                            </li>
+                            <li><span>Jan 2023 - July 2023</span><br>App Development -From- University of Central Punjab
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------- Services ----------------------->
+    <div id="services">
+        <div class="contanier">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-ranking-star"></i>
+                    <h2>Search Engine Optimization</h2>
+                    <p>Enhance online visibility through proficient SEO strategies, encompassing both on-page and
+                        off-page techniques. Implement technical optimizations to improve website performance and user
+                        experience, while crafting compelling content to engage and attract target audiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development / Wordpress Development</h2>
+                    <p>Proficiently create dynamic and responsive websites, employing a range of technologies.
+                        Specialize in Wordpress to develop versatile and user-friendly web solutions, ensuring seamless
+                        navigation and engaging user interfaces for optimal online experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Expertly design and develop cross-platform mobile applications for Android and iOS devices.
+                        Utilize industry-leading tools and languages to create intuitive and feature-rich apps that
+                        provide seamless user interactions, enhanced usability, and efficient performance across
+                        platforms.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!------------------- Projects ------------------------->
+    <div id="projects">
+        <div class="contanier">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/mywork-seo.jpg">
+                    <div class="layer">
+                        <h3>Website Ranking</h3>
+                        <p>I was ranked BlueDigitalPixel website by using my SEO techniques.
+                            Check my content by click here.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/mywork-web.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Created a Printing Press Website for client
+                            Check my content by click here.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/mywork-app.jpg">
+                    <div class="layer">
+                        <h3>App Development</h3>
+                        <p>Created a Meet Medi (Medical App) for my portfolio.
+                            Check my content by click here.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+    </div>
+
+    <!------------------------------- Contact Me ------------------------------------->
+
+    <div id="contact">
+        <div class="contanier">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Conatct Me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i>hassan.saeed2522@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03044175122</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/hassan-saeed25" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Hassan25220" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                    <a href="./resume/Hassan_Software_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" Name="Name" placeholder="Your Name" required>
+                        <input type="email" Name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copy-right">
+            <p><i class="fa-solid fa-copyright"></i> Copy Right Hassan. <i class="fa-solid fa-heart"></i> Made with by
+                Hassan Saeed.</p>
+
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active-tab");
+            }
+
+            tabname.classList.add("active-link");
+            var correspondingTab = document.getElementById(tabname.getAttribute("data-tab"));
+            correspondingTab.classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenu"); // Corrected selector
+    
+        function openmenu() {
+            sidemen.style.right = "0"; // Corrected value
+        }
+    
+        function closemenu() {
+            sidemen.style.right = "-100%"; // Corrected value to close the menu
+        }
+    </script>
+    
+    
+
+
+</body>
+
+</html>
